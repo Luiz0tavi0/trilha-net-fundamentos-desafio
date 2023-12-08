@@ -25,13 +25,7 @@ namespace DesafioFundamentos.Models
             }
         }
 
-        private List<Veiculo> veiculos = new List<Veiculo>
-        {
-            new Veiculo("COY-8123"),
-            new Veiculo("MIC-5465"),
-            new Veiculo("abc-9782"),
-            new Veiculo("mec-9813"),
-        };
+        private List<Veiculo> veiculos = new List<Veiculo>();
 
         public Estacionamento(decimal precoInicial, decimal precoPorHora)
         {
